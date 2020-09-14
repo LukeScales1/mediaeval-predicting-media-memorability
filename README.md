@@ -24,4 +24,4 @@ The method used to run these scripts using a GCP Cloud Compute VM instance in Co
 7. Files can be retrieved from your GCP bucket to your local machine using the command `gsutil -m cp -R gs://<your-bucket-name>/<folder-name> .` in a terminal window/command prompt on your device. To retrieve all files from the bucket simply pass only the bucket name and do not include a folder. The `-R` argument will ensure the copy is recursive, collecting all files and subdirectories, while `-m` makes use of multithreading to speed up the process. More info on gsutil commands [here](https://cloud.google.com/storage/docs/gsutil/commands/cp).
 "
 
-Due to the enormous amount of data produced by the experiments and project I have excluded much of it from the Git repository, such as the dataset, roughwork, experminent results and hyperparameter tuning data etc. I will happily share this upon request.
+Due to the enormous amount of data produced by the experiments and project I have excluded much of it from the Git repository, such as the dataset, roughwork, experiment results and hyperparameter tuning data etc. I will happily share this upon request.
